@@ -1,0 +1,106 @@
+html {
+    background-color: #000;
+}
+
+/* HEADER */
+header {
+    background-image: url("../../images/milky-way-starry-sky-night-sky-star-956981.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#header-container {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+/* MAIN */
+
+main {
+    background-color: black;
+    color: #d5d4d4;
+    width: 100%;
+}
+
+.breadcrumb a {
+    color: #d5d4d4;
+}
+
+    /* ABOUT */
+    .about__elon-musk {
+        width: 300px;
+        height: 450px;
+        border-radius: 250px 250px;
+    }
+
+    /* ROADSTER */
+    #roadster__p {
+        text-align: left;
+    }
+
+    #roadster__p {
+        display: none;
+    }
+
+    #roadster__read-more--btn {
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    #roadster__read-more--btn:link {
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    #roadster__read-more--btn:hover {
+        background-color: white;
+        color: black;
+    }
+
+    #roadster__read-more--btn:active {
+        background-color: #D5D4D4;
+        color: black;
+    }
+
+    .roadster__a {
+        margin: 0 auto;
+    }
+
+    /* ROCKETS */
+    .rockets__box-container {
+        border: 1px solid #262626;
+        background-color: #262626;
+    }
+
+    h5 {
+        font-size: 30px;
+    }
+
+    .rockets__box--p {
+        text-align: left;
+        line-height: 30px;
+    }
+
+    .rockets__box--a {
+        color: white;
+        margin: 0 auto;
+    }
+
+
+

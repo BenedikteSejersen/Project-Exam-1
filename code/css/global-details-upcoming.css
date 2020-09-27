@@ -1,0 +1,130 @@
+body {
+    color: #d5d4d4;
+}
+
+html {
+    background-color: #000;
+}
+
+/* HEADER */
+.header__container {
+    position: relative;
+    
+}
+
+/* BREADCRUMB */
+.breadcrumb a {
+    color: #d5d4d4;
+}
+
+/* COUNTDOWN*/
+.countdown {
+    background-image: url("../../images/sky-828648_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    max-width: 100%;
+}
+
+#countdown-container {
+    display: flex;
+    justify-content: center;
+}
+
+.countdown__box h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* LAUNCH DATE */
+.launch-date-container {
+    text-align: right;
+}
+
+.launch-date__h2 {
+    text-align: right;
+}
+
+/* INFORMATION */
+.information {
+    display: flex;
+}
+
+.information__icon-container {
+    background-color: #BEBEBE;
+    border-radius: 50%;
+    padding: 5px;
+    z-index: 2;
+    position: relative;
+    margin: 0 auto;
+}
+
+.information__icon {
+    position: relative;     
+}
+
+.information__text-container {
+    background-color: #303030;
+    border-radius: 3px;
+    z-index: 1;
+}
+
+.information__links {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14;
+}
+
+.information__links:hover {
+    text-decoration: underline;
+}
+/* DETAILS */
+.details-container {
+    text-align: left;
+    position: relative;
+}
+
+.details__h3 {
+    text-align: left;
+}
+
+#details__p {
+    line-height: 30px;
+}
+
+/* YOUTUBE */
+.video-container {
+    position: relative;
+}
+
+
+/* OTHER WEBSITES */
+.other-website {
+    background-image: url("../../images/space-11099__480.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    max-width: 100%;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.other-container {
+    background-color: #1E1D1D;
+    border-radius: 3px;
+    padding: 30px;
+}
+
+.other__h4 {
+    font-weight: 500;
+}
+
+.secondary-button {
+    margin: 0 auto;
+}

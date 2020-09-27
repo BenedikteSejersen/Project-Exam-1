@@ -1,0 +1,111 @@
+html {
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-image: url("../../images/pexels-photo-3805983.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.header-container {
+    background-color: #000;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin: 0 auto;
+}
+
+.breadcrumb a {
+    color: #d5d4d4;
+}
+
+.section__p {
+    line-height: 25px;
+}
+
+#section__contact-form {    
+    /* background-color: #4A4A4A;  */
+    display: flex;
+    border-radius: 1%;;
+}
+
+.form-error {
+    display: none;
+    color: red;
+}
+/* SUBSCRIBE */
+#section__subscribe--h2 {
+    color: #b8a8ff;
+}
+
+#section__subscribe--link {
+    color: rgb(100, 212, 250);
+    text-decoration: underline;
+}
+
+/* CONTACT FORM */
+input {
+    border: 2px solid #94A4F8;
+    transition: .40s ease-in-out;
+    -webkit-translate: .40s ease-in-out;
+    -moz-transition: .40s ease-in-out;
+    -o-transition: .40s ease-in-out;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+input:focus {
+    border: 2px solid #CD4D27
+}
+
+.input-information {
+    font-size: 10px;
+    color: lightgray;
+}
+.form-error {
+    font-size: 12px;
+}
+
+.subscribe-button__information {
+    font-size: 14px;
+}
+
+.section__contact-form--container {
+    text-align: left;
+}
+
+.primary-button {
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-family: source-sans-pro, Helvetica, sans-serif;
+}
+
+#section__contact-form--also-visit {
+    display: flex;
+}
+
+/* CONNECT */
+#connect-container {
+    display: flex;
+}
+
+.connect-box__text {
+    background-color: #94A4F8;
+    color: #000;
+    border-radius: 2px;
+}
+
+.connect-box__image img {
+    max-width: 100%;
+}

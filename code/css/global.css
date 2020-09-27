@@ -1,0 +1,277 @@
+*, ::before, ::after {
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: asap, Arial, Helvetica, sans-serif;
+}
+
+/* NAV */
+
+.hamburger-menu {
+    z-index: 4000;
+}
+
+.nav__item {
+    list-style-type: none;
+    /* margin: 25px; */
+}
+
+.nav__link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    padding: 3px 0;
+}
+
+.nav__link::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+}
+
+.nav__link::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+}
+
+.nav__link::after  {
+    bottom: 0;
+    transform-origin: right;
+}
+
+.nav__link:hover::after {
+    transform: scaleX(1);
+}
+
+
+
+/* FONTS */
+
+h1 {
+    font-family: obvia, sans-serif;
+    font-size: 50px;
+}
+
+h2,a,li {
+    font-family: source-sans-pro, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+h3,h4 {
+    font-family: noto-sans, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+h5,h6,p {
+    font-family: asap, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* BACKGROUND */
+
+.white-background {
+    background-color: white;
+}
+
+.black-background {
+    background-color: black;
+}
+
+.borderbox__container--black {
+    margin: 10px auto 0 auto;
+    border-bottom: 3px solid black;
+}
+
+.borderbox__container--white {
+    margin: 10px auto 0 auto;
+    border-bottom: 3px solid white;
+}
+
+.primary-button {
+    background-color: #CD4D27;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+    display: block;
+    text-align: center;
+}
+
+.primary-button:link {
+    background-color: #CD4D27;
+    color: white;
+}
+
+.primary-button:visited {
+    background-color: #CC4C27;
+}
+
+
+.primary-button:hover {
+    background-color: #A93F20;
+}
+
+.primary-button:active {
+    background-color: #A93F20;
+    color: black;
+}
+
+.secondary-button {
+    border: 3px solid #94A4F8;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+    display: block;
+    text-align: center;
+}
+
+.secondary-button:link {
+    border: 3px solid #94A4F8;
+    color: white;
+}
+
+.secondary-button:visited {
+    border: 3px solid #94A4F8;
+}
+
+
+.secondary-button:hover {
+    background-color: #94A4F8;
+    border: 3px solid #94A4F8;
+    color: black;
+}
+
+.secondary-button:active {
+    border: 3px solid #94A4F8;
+    color: lightgray;
+}
+
+#input-hamburgermenu {
+    display: none;
+}
+
+.breadcrumb {
+    padding: 10px;
+}
+
+.breadcrumb a {
+    color: black;
+    font.size: 14px;
+    font-weight: 400;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+/* NAV */
+nav {
+    background-color: black;
+    color: white;
+}
+
+#navbar {
+    display: inline-block;
+}
+
+.nav__a:hover {
+    text-decoration: underline;
+}
+
+#header__h1 {
+    color: white;
+    background-color: black;
+}
+
+#header__h2 {
+    color: white;
+    font-style: italic;
+    font-weight: 400;
+    background-color: black;
+}
+
+.header__container {
+    margin: 0 auto;
+}
+
+.sections-black-background {
+    background-color: black;
+
+}
+
+.section__black-background {
+    color: white;
+}
+
+.sections {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+/* FOOTER */
+footer {
+    background-color: #141414;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+}
+
+.footer__social-media-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer__go-to--link {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+#footer__go-to--link:link {
+    border: 1px solid #fff;
+}
+
+#footer__go-to--link:visited {
+    background-color: #C4BFBF;
+    border: 1px solid #C4BFBF;
+    color: #fff;
+}
+
+#footer__go-to--link:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#footer__go-to--link:active {
+    background-color: #fff;
+    color: #94A4F8;
+}
+
+.go-to-btn {
+    text-align: center;
+}

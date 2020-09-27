@@ -1,0 +1,192 @@
+@media only screen and (min-width: 1366px) {
+    /* NAV */
+    .container {
+        position: fixed;
+        top: 0;
+        z-index: 2000;
+        background-color: #000;
+    }
+
+    #logo {
+        max-width: 10%;
+        float: left;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    .nav__list {
+        display: inline-block;
+    }
+
+    .nav__item {
+        display: inline-block;
+        margin: 15px 25px;
+    }
+
+    /* HEADER */
+    header {
+        height: 100%;
+        width: 100%;
+        background-attachment: fixed;
+    }
+
+    #header-container {
+        width: 30%;
+        position: relative;
+        top: 30%;
+    }
+
+    /* MAIN */
+    main {
+        height: 1800px;
+    }
+
+    /* NEXT LAUNCH */
+    .next-launch__container {
+        max-width: 50%;
+        margin: 40px auto;
+        display: flex;
+    }
+
+    h3 {
+        margin: 20px 0;
+        font-size: 30px;
+    }
+
+    #next-launch__img {
+        width: 20%;
+        height: 20%;
+        margin: 50px;
+    }
+
+    .next-launch__p--data {
+        left: 20%;
+    }
+
+    #next-launch__p-name {
+        left: 31%;
+    }
+    
+
+    .next-launch__p {
+        display: flex;
+    }
+
+    .next-launch__link-container {
+        margin: 60px 0 40px 0;
+        display: flex;
+    }
+
+    .next-launch__link-container a{
+        padding: 10px;
+        margin: 0 50px;
+    }
+
+    /* IN COMMON */
+    .live-tv__container {
+        width: 50%;
+        padding: 40px;
+        margin: 30px;
+    }
+
+    .live-tv__h4 h4 {
+        margin-bottom: 30px;
+        text-align: left;
+        font-size: 25px;
+    }
+
+    .live-tv__p {
+        width: 80%;
+    }
+
+   .live-tv__p p {
+       line-height: 28px;
+   }
+
+   .live-tv__link-btn-container {
+       margin: 40px;
+       width: 60%;
+   }
+
+   .live-tv__link-btn-container a {
+       padding: 10px;
+       display: block;
+   }
+
+        /* NASA */
+        #nasa-tv__container {
+            width: 40%;
+            float: left;
+        }
+
+        /* UPCOMING LAUNCH LIVE - SCHEDULE */
+        #upcoming-launches__container {
+            width: 25%;
+            float: right;
+        }
+
+        /* LIVE ISS streams */
+        #different-livestreams__container {
+            width: 40%;
+            float: left;
+        }
+
+        /* SPACE.COM SPACEFLIGHT */
+        #spaceflight__container {
+            width: 35%;
+            float: right;
+        }
+
+        /* SPACE.COM - WATCH LIVE TODAY */
+        #space-live-today__container {
+            width: 30%;
+            float: left;
+        }
+
+         /* FOOTER */
+         footer {
+            flex-direction: row;
+            
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .footer__information-container {
+            margin: 20px auto;
+            width: 40%;
+        }
+
+        .footer__information-container h3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        .footer__information-container p {
+            line-height: 30px;
+            max-width: 60%;
+            margin: 20px auto;
+            text-align: left;
+        }
+
+        .footer__go-to--btn {
+            max-width: 40%;
+            padding: 5px;
+            margin: 30px auto;
+        }
+
+        .go-to-btn {
+            margin: 20px auto;
+        }
+
+        #footer__go-to--link {
+            padding: 5px;
+        }
+
+       .about__icon--img {
+           max-width: 10%;
+       } 
+
+
+}

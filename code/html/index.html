@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find out our next launch, explore latest and earlier launches, and watch launches live.">
+    <meta name="keywords" content="SpaceX, launches, next launch, latest launch, past launch, upcoming launches, explore, discover, live launch, roadster, historical launches, Elon Musk, Tesla">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/global.css" type="text/css">
+    <link rel="stylesheet" href="../css/global-index.css" type="text/css">
+    <link rel="stylesheet" href="../css/mobile-and-tablet-index.css" type="text/css">
+    <link rel="stylesheet" href="../css/desktop-index.css" type="text/css">
+    <!-- LOADER -->
+    <link rel="stylesheet" href="../css/loader.css" type="text/css">
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://use.typekit.net/svc2xhr.css">
+    <!-- TITLE -->
+    <title>SpaceX Launches</title>
+
+</head>
+<body onload="loading()">
+
+    <!-- LOADER -->
+    <div class="loader"></div>
+
+    <!-- POP-UP -->
+    <div class="pop-up">
+        
+        <button class="pop-up__btn">X</button>
+        
+        <div class="pop-up-container">
+            
+            <img src="../../images/pop-up-img-copy.jpg" alt="cartoon of a rocket launching" class="pop-up__img">
+
+            <div class="pop-up__text-container">
+                <h2 class="pop-up__text--h2 pop-up-text">Stay updated!</h2>
+                <p class="pop-up__text--p pop-up-text">Do as 50+ people did before you. Subscribe to get updated about launches before everyone else.</p>
+
+                <div class="pop-up__text--link-container pop-up-text">
+                    <a href="contact-form.html" class="primary-button pop-up__text--link">Go to subcribe here</a>
+
+                    <div class="pop-up__text--link-icons pop-up-text">
+                        <a href="https://twitter.com/SpaceX" class="pop-up__text--link-icon"><img src="../../icons/twitter.png" alt="twitter icon" class="pop-up_icon"></a>
+                        <a href="https://www.flickr.com/photos/spacex/" class="pop-up__text--link-icon"><img src="../../icons/flickr.png" alt="flickr icon" class="pop-up_icon"></a>
+                    </div>
+
+                </div>
+
+            </div>
+       
+        </div>
+    </div>
+
+    <!-- NAV -->
+
+    <div class="navbar-mobile-background"></div>
+    <div class="container">
+
+        <div class="navbar__logo-container">
+            <a href="index.html"><img src="../../icons/spaceXLogo.png" alt="spacex logo" id="logo" class="nav__left nav__a"></a>
+        </div>
+
+        <nav class="navbar">
+
+            <div class="hamburger-menu">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </div>
+
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="about.html" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="contact-form.html" class="nav__link">Subscribe</a>
+                </li>
+                <li class="nav__item">
+                    <a href="go-live.html" class="nav__link">Go live</a>
+                </li>
+                <li class="nav__item">
+                    <a href="launches.html" class="nav__link">Launches</a>
+                </li>
+            </ul>
+        
+        </nav>
+    </div>
+
+   <!-- HEADER -->
+        <header>
+           <div class="header__container"><h1 id="header__h1">SpaceX Launches</h1></div> 
+           <div class="header__container"><h2 id="header__h2">Explore all past, last, next and upcoming launches!</h2></div>
+            <div class="header__container"><a href="launches.html" class="primary-button header-button">See all launches here</a></div>
+        </header>
+
+    <main>
+
+        <div class="white-background">
+
+        <!-- Next launch -->
+        <section class="sections">
+            <div id="section__next">
+                
+                    <h2 id="section__latest-launch--h2">Next launch</h2>
+                    <div class="borderbox__container--black"></div>
+
+                    <p id="section__p-up--next" class="section__p"></p>
+                    <p id="section__p-down--next" class="section__p"></p>
+                    <div id="section__p-countdown--next" class="section__p">
+                        <div class="countdown-container">
+                            <p class="countdown-text">Days</p>
+                                <p id="day"></p>
+                        </div>
+                        <div class="countdown-container">
+                            <p class="countdown-text">Hours</p>
+                                <p id="hours"></p>
+                        </div>
+                        <div class="countdown-container">
+                            <p class="countdown-text">Minutes</p>
+                                <p id="minutes"></p>
+                        </div>
+                        <div class="countdown-container">
+                            <p class="countdown-text">Seconds</p>
+                                <p id="seconds"></p>
+                        </div>
+                    </div>
+                
+            </div>
+            
+        
+        <!-- All launches -->
+        <section class="sections all-launches">
+            <h2 id="section__all-launches--h2">Go to our Launch schedule here</h2>
+            <div class="borderbox__container--black"></div>
+
+            <div class="section__all-launches--container">
+
+            <a href="../html/launches.html#a-past" class="section__all-launches--a-container">
+                <div class="section__all-launches--button-container">
+                    <img src="../../images/launch-2.jpg" alt="a rocket who are about to launch" class="section__all-launches--img" width="500" height="500">
+                    <div class="section__button--overlay">
+                        <h3 class="section__button--h3">Past launches</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="../html/launches.html#a-latest" class="section__all-launches--a-container">
+                <div class="section__all-launches--button-container">
+                    <img src="../../images/flight-sky-earth-space.jpg" alt="a rocket who are about to launch" class="section__all-launches--img" width="500" height="500">
+                    <div class="section__button--overlay">
+                        <h3 class="section__button--h3">Latest launch</h3>
+                    </div>
+                </div> 
+            </a>
+            
+            <a href="../html/launches.html#a-next" class="section__all-launches--a-container">
+                <div class="section__all-launches--button-container">
+                    <img src="../../images/rocket-launch-falcon-heavy-spacex.jpg" alt="a rocket who are about to launch" class="section__all-launches--img" width="500" height="500">
+                    <div class="section__button--overlay">   
+                        <h3 class="section__button--h3">Next launch</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="../html/launches.html#a-upcoming" class="section__all-launches--a-container">
+                <div class="section__all-launches--button-container">
+                    <img src="../../images/spacex-rocket-night.jpeg" alt="a rocket who are about to launch" class="section__all-launches--img" width="500" hegiht="500">
+                    <div class="section__button--overlay">
+                        <h3 class="section__button--h3">Upcoming launches</h3>
+                    </div>
+                </div>
+            </a>
+            </div>
+
+        </section>
+
+    </div>
+
+    <div class="black-background">
+
+        <!-- Watch live -->
+        <section class="sections sections-black-background section__live--container">
+            <div id="section__live--text-container">
+                <h2 class="section__black-background">Watch launches from all over the world - live!</h2>
+                <div class="borderbox__container--white" id="borderbox-live"></div>
+                <a href="go-live.html" class="secondary-button section__button section__live--button" id="mobile-desktop-visible">Go live</a>
+            </div>
+
+            <img src="../../images/launch-1.jpg" alt="a rocket who are about to launch in the night" id="section__live--img">
+
+            <a href="" class="secondary-button section__button section__live--button" id="desktop-visible">Go live</a>
+
+        </section>
+
+        <!-- VIDEO -->
+        <section class="sections sections-black-background">
+            <div id="discover--text-container">
+                <h2 class="section__black-background">Take a look at what we do</h2>
+                <div class="borderbox__container--white" id="borderbox-discover"></div>
+            </div>
+            
+            <iframe id="section__discover--video" width="560" height="315" src="https://www.youtube.com/embed/Owa-tzQqVpc?start=35" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <!-- Explore SpaceX -->
+        <section class="sections sections-black-background">
+            <h2 id="section__explore--h2"  class="section__black-background">Explore SpaceX</h2>
+            <div class="borderbox__container--white" id="borderbox-explore"></div>
+
+            <div class="section__explore--flexbox">
+                <div class="section__explore--container">
+                    <img src="../../icons/tesla.png" alt="tesla icon" class="section__explore--img">
+                    <a href="about.html#roadster"  class="secondary-button section__button section__explore--a">Roadster</a>
+                </div>
+
+                <div class="section__explore--container">
+                    <img src="../../icons/start-button.png" alt="rocket goes around the earth icon" class="section__explore--img">
+                    <a href="about.html#rockets"  class="secondary-button section__button section__explore--a">Rockets</a>
+                </div>
+
+                <div class="section__explore--container">
+                    <img src="../../icons/space-shuttle.png" alt="rocket icon" class="section__explore--img">
+                    <a href="about.html#about"  class="secondary-button section__button section__explore--a">The company SpaceX</a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    </main>
+
+    <footer>
+        <div class="footer__information-container">
+            <h3>Who are we...</h3>
+            <p>SpaceX Launches is a microsite which represent SpaceX's launch schedules. If you want, you can explore past launches and find out the upoming launches.</p>
+        </div>
+
+        <div class="footer__information-container">
+            <h3>Go to...</h3>
+            <a href="launches.html" class="secondary-button footer__go-to--btn">Launches</a>
+            <a href="go-live.html" class="secondary-button footer__go-to--btn">Go live</a>
+            <a href="contact-form.html" class="secondary-button footer__go-to--btn">Subscribe</a>
+            <a href="about.html" class="secondary-button footer__go-to--btn">About</a>
+        </div>
+
+        <div class="footer__social-media-container footer__information-container">
+            <h3>Other sites to visit us...</h3>
+            <a href="https://www.spacex.com/" class="go-to-btn" id="footer__go-to--link">SpaceX.com</a>
+            <a href="https://twitter.com/SpaceX"  class="go-to-btn"><img src="../../icons/twitter.png" alt="twitter icon" class="about__icon--img"></a>
+            <a href="https://www.flickr.com/photos/spacex/"  class="go-to-btn"><img src="../../icons/flickr.png" alt="flickr icon" class="about__icon--img"></a>
+        </div>
+    </footer>
+
+    <!-- <?php
+        echo "index file";
+
+        echo `<hr />`;
+        $url = explode(`/`, $_GET[`url`];
+        print_r($url);
+
+    ?> -->
+
+    <script src="../js/apicall.js"></script>
+    <script src="../js/hamburger.js"></script>
+    <script src="../js/loader.js"></script>
+    <script src="../js/subscribe-popup-window.js"></script>
+</body>
+</html>

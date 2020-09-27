@@ -1,0 +1,217 @@
+@media only screen and (min-width: 1366px) {
+    /* NAV */
+    .container {
+        position: fixed;
+        top: 0;
+        z-index: 2000;
+        background-color: #000;
+    }
+
+    #logo {
+        max-width: 10%;
+        float: left;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    .nav__list {
+        display: inline-block;
+    }
+
+    .nav__item {
+        display: inline-block;
+        margin: 15px 25px;
+    }
+
+    /* HEADER */
+    header {
+        height: 100%;
+        width: 100%;
+        background-attachment: fixed;
+    }
+
+    #header-container {
+        min-width:30%;
+        max-width: 45%;
+        position: relative;
+        top: 30%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* ABOUT */
+
+    #about {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 50px;
+    }
+
+    .about__p-container {
+        width: 50%;
+        padding: 100px;
+    }
+
+    .about__p {
+        margin: 20px 0;
+        line-height: 30px;
+        word-break: normal;
+        -ms-word-break: normal;
+        text-align: left;
+    }
+
+
+    .about__img-icon {
+        width: 50%;
+    }
+
+    .about__elon-musk {
+        margin-bottom: 30px;
+    }
+
+                .about__icon-img {
+                    width: 5%;
+                    margin: 0 10px;
+                }
+
+    #about__img--spacex {
+        width: 20%;
+    }
+
+    /* ROADSTER */
+    #roadster {
+        margin-top: 150px;
+        display: flex;
+    }
+
+    .roadster__text-container{
+        width: 40%;
+    }
+
+    .roadster__img-container{
+        width: 60%;
+    }
+
+    #roadster__h2 {
+        top: 30%;
+        position: relative;
+    }
+
+    .borderbox__roadster {
+        position: relative;
+        top: 30%;
+    }
+
+    #roadster__read-more-container {
+        position: relative;
+        top: 40%;
+    }
+
+    #roadster__read-more--btn {
+        padding: 10px;
+    }
+
+    .roadster__img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .roadster__a {
+        padding: 10px;
+        max-width: 30%;
+    }
+
+    .borderbox__container--white {
+        max-width: 10%;
+    }
+
+    /* ROCKETS */
+    #rockets {
+        margin: 150px auto;
+    }
+
+    .borderbox_rockets {
+        margin-bottom: 100px;
+    }
+
+    #rockets-container {
+        margin: 40px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rockets__box-container {
+        width: 40%;
+        margin: 20px auto;
+    }
+
+    h5 {
+        margin: 10px;
+    }
+
+    .rockets__box--p {
+        padding: 20px;
+        line-height: 30px;
+        line-break: auto;
+        -ms-line-break: auto;
+        -ms-line-break: auto;
+    }
+
+    .rockets__box--img {
+        max-width: 100%;
+    }
+
+    .rockets__box--a-container {
+        margin: 40px auto;
+    }
+
+    .rockets__box--a {
+        padding: 10px;
+        max-width: 30%;
+    }
+
+     /* FOOTER */
+     footer {
+        flex-direction: row;
+        
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .footer__information-container {
+        margin: 20px auto;
+        width: 40%;
+    }
+
+    .footer__information-container h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .footer__information-container p {
+        line-height: 30px;
+        max-width: 60%;
+        margin: 20px auto;
+        text-align: left;
+    }
+
+    .footer__go-to--btn {
+        max-width: 40%;
+        padding: 5px;
+        margin: 30px auto;
+    }
+
+    .go-to-btn {
+        margin: 20px auto;
+    }
+
+    #footer__go-to--link {
+        padding: 5px;
+    }
+
+   .about__icon--img {
+       max-width: 10%;
+   }
+}

@@ -1,0 +1,263 @@
+html {
+    background-color: #000;
+}
+
+/* HEADER */
+.header-launches {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+header {
+    background-image: url("../../images/rocket-launch-rocket-take-off-nasa-73872.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    background-color: black;
+    color: #d5d4d4;
+}
+
+h2 {
+    color: #fff;
+}
+
+/* BREADCRUMB */
+.breadcrumb a {
+    color: #d5d4d4;
+}
+
+/* SECTIONS - IN COMMON */
+.latest-description {
+    font-weight: 600;
+}
+
+/* OVERVIEW */
+.overview__link-container {
+    display: flex;
+}
+
+.section__overview--link {
+    transition: .10s ease-in-out;
+    -moz-transition: .10s ease-in-out;
+    -o-transition: .10s ease-in-out;
+    -webkit-transition: .10s ease-in-out;
+}
+
+.section__overview--link:hover {
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+.section__overview--container {
+    border: 2px solid #94A4F8;
+    border-radius: 50%;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+/* UP-BUTTON */
+.up-button-container {
+    position: fixed;
+    position: -webkit-sticky;
+    bottom: 20px;
+    right: 10px;
+    float: right;
+    z-index: 3000;
+}
+
+.up-button-container a {
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    font-size: 20px;
+}
+
+/* READ MORE */
+.information {
+    display: flex;
+}
+
+.information__icon-container {
+    background-color: #BEBEBE;
+    border-radius: 50%;
+    padding: 5px;
+    z-index: 2;
+    position: relative;
+    margin: 0 auto;
+}
+
+.information__icon {
+    position: relative;     
+}
+
+.information__text-container {
+    background-color: #303030;
+    border-radius: 3px;
+    z-index: 1;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.information__links {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14;
+}
+
+.information__links:hover {
+    text-decoration: underline;
+}
+
+.launch__find-more--btn {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px auto;
+    font-size: 14px;
+}
+
+.launch__find-more--btn:link {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer; 
+}
+
+.launch__find-more--btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.launch__find-more--btn:active {
+    background-color: #D5D4D4;
+    color: black
+}
+
+/* NEXT */
+#section__p-countdown--next {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #A39F9F;
+    justify-content: center;
+    transition: .10s ease-in-out;
+}
+
+#section__p-countdown--next:hover {
+    transform: scale(1.1);
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+
+.countdown-container {
+    margin: 5px 10px 5px 10px;
+    text-align: center
+}
+
+.next-description {
+    font-weight: 600;
+}
+
+.launch___name--p {
+    text-transform: capitalize;
+}
+
+.latest-next-btn {
+    margin: 20px auto;
+} 
+
+/* WATCH LIVE */
+.watch-live {
+    background-image: url("../../images/space-background-about.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    max-width: 100%;
+    height: 150px;
+}
+
+.watch-live-container {
+    position: relative;
+    top: 35%;
+}
+
+.watch-live__a {
+    margin: 0 auto;
+}
+
+/* UPCOMING/PAST LAUNCHES */
+.launches__table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
+}
+
+.launch__tablehead {
+    font-size: 20px;
+}
+
+.launch-value {
+    margin: 10px auto;
+}
+
+.launches__table td {
+    border-bottom: 1px solid #A39F9F; 
+    padding: 10px 5px 5px 10px;
+}
+
+.launch__name--link {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.launch__name--link:hover {
+    text-decoration: underline;
+}
+
+tr:nth-child(even) {
+    background-color: #0c0c0c;
+}
+
+tr:nth-child(odd) {
+    background-color: black;
+} 
+
+.launch__border-right {
+    border-right:1px solid #A39F9F;
+}
+
+.past-upcoming__borderbox {
+    margin-bottom: 80px;
+}
+
+.launches__link--arrow {
+    font-size: 25px;
+}
+
+.launch__tablehead-container {
+    border-bottom: 3px solid white;
+}
+
+.td__link {
+    padding: 20px;
+}

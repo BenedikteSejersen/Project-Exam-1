@@ -1,0 +1,56 @@
+@media only screen and (min-width: 1366px) {
+    body {
+        max-width: 80%;
+    }
+
+    /* INFO */
+    .error__p {
+        font-size: 14px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    /* 404 */
+    .error__h1 {
+        margin: 50px;
+        text-align: center;
+    }
+
+    .error__h1--4 {
+        font-size: 450%;
+        margin: 0 5px;
+    }
+
+    .error__h1--icon {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* TEXT */
+    .error__h2 {
+        font-size: 25px;
+        width: 40%;
+        margin: 30px auto;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .error__h4 {
+        font-size: 14px;
+        width: 80%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    /* HOME BTN */
+    .error__home--btn-container {
+        width: 20%;
+        margin: 50px auto;
+    }
+
+    .secondary-button {
+        padding: 10px;
+    } 
+
+
+}

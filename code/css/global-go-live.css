@@ -1,0 +1,104 @@
+html {
+    background-color: #000;
+}
+
+/* HEADER */
+header {
+    background-image: url("../../images/space-background-1Kopi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#header-container {
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1 {
+    color: white;
+}
+
+.breadcrumb a {
+    color: #fff;
+}
+
+/* MAIN */
+main {
+    color: #fff;
+}
+
+/* NEXT LAUNCH */
+.next-launch__container {
+    --webkit-box-shadow: 1px 2px 52px 3px rgba(122,122,122,0.42);
+    -moz-box-shadow: 1px 2px 52px 3px rgba(122,122,122,0.42);
+    box-shadow: 1px 2px 52px 3px rgba(122,122,122,0.42);
+    background-color: #ECECEC;
+    color: black;
+    border-radius: 1%;;
+}
+
+.next-launch__p--description {
+    font-weight: 700;
+}
+
+.next-launch__p p {
+    margin: 5px;
+}
+
+.next-launch__p--data {
+    position: relative;
+}
+
+.next-launch-btn {
+    color: black;
+    border: 3px solid #4954A5;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.next-launch-btn:link {
+    border: 3px solid #4954A5;
+    color: black;
+}
+
+.next-launch-btn:visited {
+    border: 3px solid #4954A5;
+}
+
+
+.next-launch-btn:hover {
+    background-color: #4954A5;
+    color: white;
+    border: 3px solid #4954A5;
+}
+
+.next-launch-btn:active {
+    border: 3px solid #4954A5;
+    color: lightgray;
+}
+
+/* IN COMMMON */
+.live-tv__container {
+    background-color: #262626;
+    border-radius: 1%;;
+}
+
+.live-tv__p {
+    text-align: left;
+}
+
+                                        .live-tv__p a:hover {
+                                            text-decoration: underline;
+                                        }
+
+h4 {
+    font-size: 25px;
+}

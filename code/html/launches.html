@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find out our next launch, explore latest and earlier launches, and watch launches live.">
+    <meta name="keywords" content="SpaceX, launches, next launch, latest launch, past launch, upcoming launches, explore, discover, live launch, roadster, historical launches, Elon Musk, Tesla, launches-schedule">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/global.css" type="text/css">
+    <link rel="stylesheet" href="../css/global-launches.css" type="text/css">
+    <link rel="stylesheet" href="../css/mobile-and-tablet-launches.css" type="text/css">
+    <link rel="stylesheet" href="../css/desktop-launches.css" type="text/css">
+    <link rel="stylesheet" href="../css/loader.css" type="text/css">
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://use.typekit.net/svc2xhr.css">
+    <title>SpaceX Launches - Launch schedules</title>
+</head>
+<body onload="loading()">
+
+    <div class="loader"></div>
+
+      <!-- NAV -->
+
+    <div class="navbar-mobile-background"></div>
+    <div class="container">
+
+        <div class="navbar__logo-container">
+            <a href="index.html"><img src="../../icons/spaceXLogo.png" alt="spacex logo" id="logo" class="nav__left nav__a"></a>
+        </div>
+
+        <nav class="navbar">
+
+            <div class="hamburger-menu">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </div>
+
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="index.html" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="about.html" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="contact-form.html" class="nav__link">Subscribe</a>
+                </li>
+                <li class="nav__item">
+                    <a href="go-live.html" class="nav__link">Go live</a>
+                </li>
+                <li class="nav__item">
+                    <a href="launches.html" class="nav__link">Launches</a>
+                </li>
+            </ul>
+        
+        </nav>
+    </div>
+
+
+    <!-- HEADER -->
+    <header id="header">
+        <div class="header__container header-launches">
+            <h1>Launches</h1>
+        </div>
+    </header>
+
+    <main>
+
+        <p class="breadcrumb"><a href="index.html">Home</a>&nbsp; &#8594; &nbsp;Launches</p> 
+
+        <!-- OVERVIEW -->
+        <section class="sections" id="overview">
+            <h2>Get an overview over all past, latest, next and upcoming launches 
+                with SpaceX </h2>
+            <div class="borderbox__container--white"></div>
+
+            <div class="overview__link-container">
+                <a href="#a-past" class="section__overview--link">
+                    <div class="section__overview--container">
+                        <h4>Past launches</h4>
+                    </div>
+                </a>
+
+                <a href="#a-latest" class="section__overview--link">
+                    <div class="section__overview--container">
+                        <h4>Latest launch</h4>
+                    </div>
+                </a>
+
+                <a href="#a-next" class="section__overview--link">
+                    <div class="section__overview--container">
+                        <h4>Next launch</h4>
+                    </div>
+                </a>
+
+                <a href="#a-upcoming" class="section__overview--link">
+                    <div class="section__overview--container">
+                        <h4>Upcoming launches</h4>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- UP-BUTTON -->
+        <div class="up-button-container">
+            <a href="#header"> &#9650;</a>
+        </div>
+
+        <!-- LATEST LAUNCH -->
+        <section class="sections" id="a-latest">
+            <h2 class="section__h2-right">Latest launch</h2>
+            <div class="borderbox__container--white section__h2-right"></div>
+
+            <div class="launch__text-container">
+                <p class="latest-description" >Name of mission :</p>
+                <div class="section__latest--p section__launches--p" id="latest-name-link"></div>
+                <div class="section__latest--p section__launches--p" id="latest-name"></div>
+            </div>
+
+            <div class="launch__text-container">
+                <p class="latest-description">Launch date :</p>
+                <p class="section__latest--p section__launches--p" id="latest-date"></p>
+            </div>
+            
+            <div class="launch__text-container">
+                <p class="latest-description" id="latest__description--details">Details :</p>
+                <p class="section__latest--p section__launches--p launch__details--p" id="latest-details"></p>
+            </div>
+
+                <div class="information__read-more">
+                    
+                    <div class="information" id="information-latest">
+
+                        <div class="information-container">
+                            <div class="information__icon-container">
+                                <img src="../../icons/space-shuttle.png" alt="rocket icon" class="information__icon">
+                            </div>
+                            <div class="information__text-container">
+                                <h3 class="information__h3">Rocket</h3>
+                                <a href="about.html#rockets" class="information__links" id="information__rocket-latest"></a>
+                            </div>
+                        </div>
+        
+                        <div class="information-container">
+                            <div class="information__icon-container">
+                                <img src="../../icons/space.png" alt="rocket icon" class="information__icon">
+                            </div>
+                            <div class="information__text-container">
+                                <h3 class="information__h3">Payload</h3>
+                                <p id="information__payload-latest"></p>
+                            </div>
+                        </div>
+        
+                        <div class="information-container">
+                            <div class="information__icon-container">
+                                <img src="../../icons/flag.png" alt="rocket icon" class="information__icon">
+                            </div>
+                            <div class="information__text-container">
+                                <h3 class="information__h3">Nationality</h3>
+                                <p id="information__nationality-latest"></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="launch__find-more--btn" id="find-more-btn-latest" onClick="findOutMoreBtn()">FIND OUT MORE</button>
+                </div>
+
+            <div id="latest__iframe-container"></div>
+
+            <div id="latest__button-container"></div>
+
+        </section>
+
+        <!-- NEXT LAUNCH -->
+        <section class="sections" id="a-next">
+            <h2 class="section__h2-left">Next launch</h2>
+            <div class="borderbox__container--white section__h2-left" id="borderbox-latest"></div>
+
+            <div class="launch__text-container">
+                <p class="next-description">Name of mission :</p>
+                <div class="section__next--p section__launches--p" id="next-name-link"></div>
+                <div class="section__next--p section__launches--p" id="next-name"></div>
+            </div>
+
+            <div class="launch__text-container">
+                <p class="next-description">Launch date :</p'>
+                <p class="section__next--p section__launches--p" id="next-launch-date"></p>
+            </div>
+            
+            <div id="section__p-countdown--next" class="section__next--p">
+                <div class="countdown-container">
+                    <p class="countdown-text">Days</p>
+                        <p id="day"></p>
+                </div>
+                <div class="countdown-container">
+                    <p class="countdown-text">Hours</p>
+                        <p id="hours"></p>
+                </div>
+                <div class="countdown-container">
+                    <p class="countdown-text">Minutes</p>
+                        <p id="minutes"></p>
+                </div>
+                <div class="countdown-container">
+                    <p class="countdown-text">Seconds</p>
+                        <p id="seconds"></p>
+                </div>
+            </div>
+
+            <div class="launch__text-container">
+                <p class="next-description" id="next__description--details">Details :</p>
+                <p class="section__next--p section__launches--p launch__details--p" id="next-details"></p>
+            </div>
+
+            <div class="information__read-more">
+                    
+                <div class="information" id="information-next">
+                    <div class="information-container">
+                        <div class="information__icon-container">
+                            <img src="../../icons/space-shuttle.png" alt="rocket icon" class="information__icon">
+                        </div>
+                        <div class="information__text-container">
+                            <h3 class="information__h3">Rocket</h3>
+                            <a href="about.html#rockets" class="information__links" id="information__rocket-next"></a>
+                        </div>
+                    </div>
+    
+                    <div class="information-container">
+                        <div class="information__icon-container">
+                            <img src="../../icons/space.png" alt="rocket icon" class="information__icon">
+                        </div>
+                        <div class="information__text-container">
+                            <h3 class="information__h3">Payload</h3>
+                            <p id="information__payload-next"></p>
+                        </div>
+                    </div>
+    
+                    <div class="information-container">
+                        <div class="information__icon-container">
+                            <img src="../../icons/flag.png" alt="rocket icon" class="information__icon">
+                        </div>
+                        <div class="information__text-container">
+                            <h3 class="information__h3">Nationality</h3>
+                            <p id="information__nationality-next"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="launch__find-more--btn" id="find-more-btn-next" onClick="findOutMoreBtn()">FIND OUT MORE</button>
+            </div>
+
+
+            <img src="../../images/spacex-rocket-night.jpeg" alt="a rocket in the night" id="next__image">
+            <div id="next__button-container"></div>
+
+        </section>
+
+        <!-- WATCH LIVE -->
+        <section class="sections watch-live">
+            <div class="watch-live-container">
+                <a href="https://www.rocketlaunch.live/?filter=spacex" class="secondary-button watch-live__a">Livestream next launch here</a>
+            </div>
+        </section>
+
+        <!-- UPCOMING LAUNCHES -->
+
+        <section class="sections" id="a-upcoming">
+            <h2 class="section__h2-right">Upcoming launches</h2>
+            <div class="borderbox__container--white past-upcoming__borderbox section__h2-right"></div>
+            
+            <div class="launch__tablehead-container">
+                <p class="launch__tablehead">Name of spaceship</p>
+                <p class="launch__tablehead">Launch date</p>
+                <p class="launch__tablehead">Details</p>
+            </div>
+
+            <table style="100%" id="upcoming" class="launches__table">
+            </table>
+            </section>
+        </section>
+
+        <!-- PAST LAUNCHES -->
+
+        <section class="sections" id="a-past">
+            <h2 class="section__h2-left">Past launches</h2>
+            <div class="borderbox__container--white past-upcoming__borderbox section__h2-left"></div>
+
+            <div class="launch__tablehead-container">
+                <p class="launch__tablehead">Name of spaceship</p>
+                <p class="launch__tablehead">Launch date</p>
+                <p class="launch__tablehead">Details</p>
+            </div>
+
+            <table style="100%" id="past" class="launches__table">
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer__information-container">
+            <h3>Who are we...</h3>
+            <p>SpaceX Launches is a microsite which represent SpaceX's launch schedules. If you want, you can explore past launches and find out the upoming launches.</p>
+        </div>
+
+        <div class="footer__information-container">
+            <h3>Go to...</h3>
+            <a href="launches.html" class="secondary-button footer__go-to--btn">Launches</a>
+            <a href="go-live.html" class="secondary-button footer__go-to--btn">Go live</a>
+            <a href="contact-form.html" class="secondary-button footer__go-to--btn">Subscribe</a>
+            <a href="about.html" class="secondary-button footer__go-to--btn">About</a>
+        </div>
+
+        <div class="footer__social-media-container footer__information-container">
+            <h3>Other sites to visit us...</h3>
+            <a href="https://www.spacex.com/" class="go-to-btn" id="footer__go-to--link">SpaceX.com</a>
+            <a href="https://twitter.com/SpaceX"  class="go-to-btn"><img src="../../icons/twitter.png" alt="twitter icon" class="about__icon--img"></a>
+            <a href="https://www.flickr.com/photos/spacex/"  class="go-to-btn"><img src="../../icons/flickr.png" alt="flickr icon" class="about__icon--img"></a>
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="../js/apicallLaunches.js"></script>
+    <script src="../js/hamburger.js"></script>
+    <script src="../js/loader.js"></script>
+    <script src="../js/launches-read-more.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 0 auto;
+}
+
+/* INFO */
+.error__p {
+    color: #9e9e9e;
+}
+
+/* 404 */
+
+
+/* TEXT */
+.error__h2 {
+    font-weight: 500;
+}
+
+.error__h4 {
+    font-weight: 400;
+    color: #9e9e9e;
+}
